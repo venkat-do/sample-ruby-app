@@ -1,9 +1,10 @@
 source 'https://rubygems.org'
 
-ruby '3.2.0'
+# Use Ruby 2.6+ for better compatibility
+ruby '>= 2.6.0'
 
-gem 'sinatra', '~> 3.1'
-gem 'puma', '~> 6.4'
+gem 'sinatra', '~> 2.2'
+gem 'puma', '~> 5.6'
 gem 'json', '~> 2.6'
 
 group :development do
